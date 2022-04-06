@@ -4,12 +4,12 @@ import './index.css'
 import App from './App'
 import Schema from './schema/schema'
 
-// ReactDOM.render(
-//   <React.StrictMode>
-//     <Schema />
-//   </React.StrictMode>,
-//   document.getElementById('jsonld')
-// )
+ReactDOM.render(
+  <React.StrictMode>
+    <Schema />
+  </React.StrictMode>,
+  document.getElementById('jsonld')
+)
 
 ReactDOM.render(
   <React.StrictMode>
